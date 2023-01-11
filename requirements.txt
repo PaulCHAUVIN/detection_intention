@@ -1,0 +1,5 @@
+# intent detection exercise requirements
+transformers
+pandas
+scikit-learn
+torch

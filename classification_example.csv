@@ -1,0 +1,75 @@
+text,label
+"Can you tell me how to say "I don't speak much Spanish" in Spanish",translate
+Tell me how to say "It's a beautiful morning" in Italian,translate
+"If I were Japanese, how would I say I am a tourist",translate
+How to say "hotel" in Finnish,translate
+"I need you to translate the sentence, "we'll be there soon" into Portuguese",translate
+Please tell me how to ask for a cab in French,translate
+How to say hello in English,translate
+Does North Korea have travel alerts I should be aware of,travel_alert
+Are there travel alerts for Syria,travel_alert
+Is there a travel alert for Russia,travel_alert
+Is it safe to travel to Iceland,travel_alert
+Tell me about travel alerts issued for Germany,travel_alert
+Is there any news about flight DL123,flight_status
+When will we start boarding my scheduled flight,flight_status
+When will my flight take off,flight_status
+When will my flight land,flight_status
+What is the gate for my flight AF847,flight_status
+When will I arrive at my destination,flight_status
+Locate lost luggage on Flight America Airlines at O'Hare,lost_luggage
+Lost luggage on Flight America Airlines at O'Hare,lost_luggage
+I think my luggage was lost,lost_luggage
+"My luggage is missing, I was on Frontier flight AB123 from Seattle",lost_luggage
+"Help, I lost my luggage",lost_luggage
+Do you know who I should contact because my luggage has not arrived,lost_luggage
+Who should I complain to about my luggage not arriving at the airport,lost_luggage
+Please suggest fun tourist activities in Tokyo,travel_suggestion
+"If I go to Evans, what should I do",travel_suggestion
+What are the good restaurants in Chicago,travel_suggestion
+where should I spend my free time,travel_suggestion
+What can I do in Nashville,travel_suggestion
+Give me a list of things to do in Orlando,travel_suggestion
+Where is the best winery in the south of France,travel_suggestion
+Are there any fun tourist activities in Australia,travel_suggestion
+Do you want to tell me about carry-on restrictions for American Airlines,carry_on
+Cabin restrictions for the United Arab Emirates,carry_on
+What am I allowed to take in the cabin with American Airlines,carry_on
+Is there a weight limit for my carry-on bag,carry_on
+How many carry-on bags can I take on a flight with United to Lax,carry_on
+What are the carry-on baggage rules for Virgin Airlines flights,carry_on
+Is there a carry-on weight limit,carry_on
+Do I have to pay for my carry-on luggage,carry_on
+Book me a room from November 11 to 15 in Cali,book_hotel
+Find me a place to stay in Cali from November 11 to 15,book_hotel
+Which hotels have decent reviews in Bangor,book_hotel
+Please find me a hotel room for 4 people Monday through Wednesday in Lakewood,book_hotel
+"Find a Columbus, Ohio hotel with good reviews,book_hotel
+"Please help me book a place to stay in Pittsburgh Monday through Friday",book_hotel
+I need a hotel room large enough for 4 people Monday through Wednesday in Lakewood,book_hotel
+Find me round trip flights from LAX to SFOX,book_flight
+Book a flight from Chicago to DC on Monday and back on Wednesday,book_flight
+I am looking for a round trip flight from AAF to DIA from February 23 to February 28,book_flight
+Could you make a flight reservation with Air Emirates from Orlando to London,book_flight
+I need to book a round trip flight from Dallas to Los Angeles from March 2 to 10,book_flight
+I would like to know what flights are available on El Paso to Dallas on June 10 for under $300,book_flight
+How much is an overdraft fee for the bank,out_of_scope
+What size wiper does this car take,out_of_scope
+What is the largest state in the United States,out_of_scope
+What is the most popular airline,out_of_scope
+How many planets have we discovered,out_of_scope
+How many sides in a hexagon,out_of_scope
+How long is winter,out_of_scope
+who is the coach of the Chicago Bulls,out_of_scope
+How many Oscars have the Star Wars movies won,out_of_scope
+Please find the capital of Pakistan,out_of_scope
+Who is the scariest character in Start Trek,out_of_scope
+What is the average battery life of an Android phone,out_of_scope
+When did Camus die,out_of_scope
+When was Nintendo created,out_of_scope
+Which Marvel character has appeared in the most movies,out_of_scope
+What are the advantages of finishing high school,out_of_scope
+Can you tell me how fast the average plane to California goes,out_of_scope
+Is it possible to rent a car in Laguardia from Tuesday to Friday,out_of_scope
+What is the exchange rate between USD and Euro,out_of_scope
+Can you tell me the time zone in San Francisco,out_of_scope
