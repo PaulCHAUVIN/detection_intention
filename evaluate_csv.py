@@ -6,12 +6,16 @@ from transformers import pipeline
 from sklearn.metrics import accuracy_score, recall_score
 import pandas as pd
 from utils import get_label_max_score
+import argparse
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
-# Define the data_path
-path_to_data_english = "/Users/paulchauvin/Documents/GitHub/detection_intention/classification_example.csv"
-path_to_data_french = "/Users/paulchauvin/Documents/GitHub/detection_intention/exemples_de_classification_francais.csv"
+# Add argparse argument for path_to_data_csv and model_chosen
+parser = argparse.ArgumentParser()
+parser.add_argument("data_path_to_csv", help="path to the csv file")
+parser.add_argument("model_chosen", help="model to use for classification")
+args = parser.parse_args()
+
 
 def model_evaluation(data_path_to_csv, model_chosen):
     """
@@ -55,10 +59,4 @@ def model_evaluation(data_path_to_csv, model_chosen):
     return "Accuracy: ", accuracy
 
 
-# TESTS
-
-#test on english dataset:
-print(model_evaluation(path_to_data_english, 'English'))
-
-#test on french dataset:
-print(model_evaluation(path_to_data_french, 'Multilanguage'))
+print(model_evaluation(args.data_path_to_csv, args.model_chosen))
