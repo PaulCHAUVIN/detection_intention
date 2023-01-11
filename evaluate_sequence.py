@@ -4,8 +4,14 @@ import os
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
 from transformers import pipeline
 from utils import get_label_max_score
+import argparse
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+
+parser = argparse.ArgumentParser()
+parser.add_argument("sentence", help="the sentence to classify, must be a string")
+parser.add_argument("model_chosen", help="model to use for classification, either 'English' or 'Multilanguage'")
+args = parser.parse_args()
 
 
 def evaluate_unique_sequence(sentence, model_chosen):
@@ -30,4 +36,4 @@ def evaluate_unique_sequence(sentence, model_chosen):
 
 
 # Test our model on specific inputs
-print(evaluate_unique_sequence("Could you please book me a flight for Paris ?", 'English'))
+print(evaluate_unique_sequence(args.sentence, args.model_chosen))
